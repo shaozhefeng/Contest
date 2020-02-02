@@ -3,12 +3,12 @@
 如果能写出来递归树，那这题也就做完90%了
 ***
 # knapsack
-40 - Count all subsequences having product less than K
 ## 01
+40 - Count all subsequences having product less than K  
 I 15 - Dice Throw 优化的思想绝了  
 I 22 - Partition Problem
 ## complete
-55 - Maximum number of segments of lengths a, b and c
+55 - Maximum number of segments of lengths a, b and c  
 79 - Find number of solutions of a linear equation of n variables
 ***
 # Sequences
@@ -19,7 +19,6 @@ I 22 - Partition Problem
 ***
 30 - Count even length binary sequences with same sum of first and second half bits  
 `31` - every element is more than or equal to twice of previous: https://github.com/shaozhefeng/Contest/blob/master/geeks/B-31.cpp  
-36 - Maximum sum Bi-tonic Sub-sequence  
 41 - Maximum subsequence sum such that no three are consecutive 可以优化空间复杂度 O(1)  
 `97` - Convert to Strictly increasing integer array with minimum changes  
 I 32 - Count All Palindromic Subsequence in a given String 这题可以按着最长回文序列来做，但是geeks给的答案也比较有意思。
@@ -42,7 +41,8 @@ I 19 - Box Stacking
 I 41 - Longest Repeating Subsequence  
 ***
 
-# array
+# Bi
+37 - Maximum sum Bi-tonic Sub-sequence  
 I 13 - Temple Offerings
 
 
@@ -64,10 +64,10 @@ I 13 - Temple Offerings
 
 # 递归树入手
 69 - Minimum removals from array to make max – min <= K  
-I 18 - Tile Stacking https://iq.opengenus.org/tile-stacking-problem/
+`I 18` - Tile Stacking https://iq.opengenus.org/tile-stacking-problem/
 
 # Number
-1 - Ungly number
+1 - Ungly number  
 I 5 - dearrangement
 
 
@@ -76,14 +76,14 @@ I 5 - dearrangement
 # Interesting
 75 - Sum of all substrings of a string representing a number | Set 1  
 98 - Longest alternating (positive and negative) subarray starting at every index  
-101 - Number of n-digits non-decreasing integers  
-I 14 - Egg Dropping Puzzle
+`101` - Number of n-digits non-decreasing integers  
+`I 14` - Egg Dropping Puzzle
 
 # String
 I 16 - Word Break
 
 # Tree
-I 17 - Vertex Cover
+I 17 - Vertex Cover  
 I 21 - Largest Independent Set
 
 # Encouragement
