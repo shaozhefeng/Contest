@@ -5,7 +5,7 @@
 # knapsack
 ## 01
 40 - Count all subsequences having product less than K  
-I 15 - Dice Throw 优化的思想绝了  
+I 15 - Dice Throw 优化的思想绝了 https://github.com/shaozhefeng/Contest/blob/master/geeks/I-15.cpp  
 I 22 - Partition Problem
 ## complete
 55 - Maximum number of segments of lengths a, b and c  
@@ -18,8 +18,8 @@ I 22 - Partition Problem
 4. trying to simplify
 
 ***
-30 - Count even length binary sequences with same sum of first and second half bits  
-`31` - every element is more than or equal to twice of previous: https://github.com/shaozhefeng/Contest/blob/master/geeks/B-31.cpp  
+`30` - Count even length binary sequences with same sum of first and second half bits  
+31 - every element is more than or equal to twice of previous: https://github.com/shaozhefeng/Contest/blob/master/geeks/B-31.cpp  
 41 - Maximum subsequence sum such that no three are consecutive 可以优化空间复杂度 O(1)  
 `97` - Convert to Strictly increasing integer array with minimum changes  
 I 32 - Count All Palindromic Subsequence in a given String 这题可以按着最长回文序列来做，但是geeks给的答案也比较有意思。
@@ -58,7 +58,7 @@ I 13 - Temple Offerings
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
 31 - Sequences of given length where every element is more than or equal to twice of previous  
-53 - Maximum sum of pairs with specific difference (trying to simplify)  
+53 - Maximum sum of pairs with specific difference `(trying to simplify)`  
 62 - Maximize the sum of selected numbers from an array to make it empty  
 78 - Find maximum possible stolen value from houses  
 `85` - Counting pairs when a person can form pair with at most one  
