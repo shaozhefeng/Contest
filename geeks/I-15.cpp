@@ -34,9 +34,13 @@ int numRollsToTarget(int d, int f, int t) {
     dp[0][0]=1;
     for(int i=1;i<=d;i++){
         for(int j=1;j<=t;j++){
+            // ith dice's face is 1, then dp[i-1][j-1]
+            // ith dice's face is not 1, then dp[i][j-1] 
+            // 可以假设算j-1的时候，ith dice多算出来1; 但是当ith dice打出来f的时候，不能再多了
             dp[i][j]=dp[i][j-1]+dp[i-1][j-1];
             dp[i][j]%=mod;
             if(j-1-f>=0){
+                // 所以要去掉当ith dice is f,and t is j-1. dp[i][j-1]
                 dp[i][j]-=dp[i-1][j-1-f];
             }
             dp[i][j]=(dp[i][j]+mod)%mod;
