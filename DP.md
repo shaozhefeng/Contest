@@ -15,6 +15,7 @@ I 22 - Partition Problem
 1. 第i个状态需要前两个状态求出（i-1，i-2），一般空间可以优化到 O(1)。
 2. 两个序列的话，可以画图。
 3. 二维dp，如果当前状态只用到了前一行，是不是可以优化空间？
+4. trying to simplify
 
 ***
 30 - Count even length binary sequences with same sum of first and second half bits  
@@ -57,6 +58,7 @@ I 13 - Temple Offerings
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
 31 - Sequences of given length where every element is more than or equal to twice of previous  
+53 - Maximum sum of pairs with specific difference (trying to simplify)  
 62 - Maximize the sum of selected numbers from an array to make it empty  
 78 - Find maximum possible stolen value from houses  
 `85` - Counting pairs when a person can form pair with at most one  
@@ -67,12 +69,10 @@ I 13 - Temple Offerings
 `I 18` - Tile Stacking https://iq.opengenus.org/tile-stacking-problem/
 
 # Number
-1 - Ungly number  
-I 5 - dearrangement
+1 - Ungly number 羊毛出自羊身上  
+I 5 - dearrangement https://en.m.wikipedia.org/wiki/Derangement  
 
 
-# MISC
-53 - Maximum sum of pairs with specific difference
 # Interesting
 75 - Sum of all substrings of a string representing a number | Set 1  
 98 - Longest alternating (positive and negative) subarray starting at every index  
