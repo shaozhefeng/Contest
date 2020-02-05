@@ -6,8 +6,9 @@
 ## 01
 40 - Count all subsequences having product less than K  
 I 15 - Dice Throw 优化的思想绝了 https://github.com/shaozhefeng/Contest/blob/master/geeks/I-15.cpp  
-I 22 - Partition Problem
-I 54 - Find all distinct subset sums of an array
+I 22 - Partition Problem  
+I 54 - Find all distinct subset sums of an array  
+I 58 - Non-decreasing subsequence of size k with minimum sum  
 
 
 ## complete
@@ -39,6 +40,8 @@ I 19 - Box Stacking
 35 - A Space Optimized Solution of LCS  
 I 41 - Longest Repeating Subsequence 
 I 55 - Print all longest common sub-sequences in lexicographical order (backtracking)  
+I 56 - Printing Longest Common Subsequence | Set 2 (Printing All)  
+I 59 - Longest Common Subsequence with at most k changes allowed  
 
 # Bi
 37 - Maximum sum Bi-tonic Sub-sequence  
@@ -48,11 +51,15 @@ I 13 - Temple Offerings
 52 - Size of The Subarray With Maximum Sum
 93 - Largest Sum Contiguous Subarray
 
-# submatrix
-`54` - Maximum size square sub-matrix with all 1s
+# Matrix
+`54` - Maximum size square sub-matrix with all 1s  
+I 65 - Collect maximum coins before hitting a dead end  
+I 69 - Count number of paths with at-most k turns GOT IT  
 
-# 逆向思维
-`48` - Maximum games played by winner
+# Game
+`48` - Maximum games played by winner  逆向思维
+`I 66` - Coin game winner where every player has three choices  
+
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
 31 - Sequences of given length where every element is more than or equal to twice of previous  
@@ -62,6 +69,7 @@ I 13 - Temple Offerings
 78 - Find maximum possible stolen value from houses  
 85 - Counting pairs when a person can form pair with at most one  
 `88` - Count of arrays having consecutive element with different values 递归树  
+I 60 - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ 查询用map的操作是真的骚  
 
 # 递归树入手
 69 - Minimum removals from array to make max – min <= K  
@@ -84,6 +92,10 @@ I 16 - Word Break
 # Tree
 I 17 - Vertex Cover  
 I 21 - Largest Independent Set
+
+# Math
+I 67 - Probability of getting at least K heads in N tosses of Coins  
+I 73 - Count all triplets whose sum is equal to a perfect cube  
 
 # Encouragement
 102 - Number of ways to arrange N items under given constraints  
