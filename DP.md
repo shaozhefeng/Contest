@@ -2,6 +2,7 @@
 # general
 如果能写出来递归树，那这题也就做完90%了  
 如果 bottom up 很麻烦的话，直接递归树加 dp table  
+问题规模很大的时候，如果这题用dp解决，那必然是从小往大计算，这时我们可以先关注大规模问题中的`比较小的子问题`  
 
 # knapsack
 ## 01
@@ -35,6 +36,7 @@ I 43 - Count distinct occurrences as a subsequence: https://leetcode.com/problem
 34 - Longest Increasing Subsequence  
 97 - Convert to Strictly increasing integer array with minimum changes  
 I 19 - Box Stacking
+`I 44` - LCS + LIS  
 
 ## LCS
 32 - Longest common subsequence  
@@ -46,18 +48,23 @@ I 59 - Longest Common Subsequence with at most k changes allowed
 
 # Bi
 37 - Maximum sum Bi-tonic Sub-sequence  
-I 13 - Temple Offerings
+I 13 - Temple Offerings  
+`I 101` - Maximum profit by buying and selling a share at most twice  
+I 105 - Maximum points collected by two persons allowed to meet once  
+`I 94` - Maximum sum subarray removing at most one element  
 
-# subarray
+
+# Array subarray
 52 - Size of The Subarray With Maximum Sum
 93 - Largest Sum Contiguous Subarray
-`I 94` - Maximum sum subarray removing at most one element  
 `I 96` - Maximum Product Subarray | Added negative product case  
 
 # Matrix
 `54` - Maximum size square sub-matrix with all 1s  
+`I 104` - Finding the maximum square sub-matrix with all equal elements  
 I 65 - Collect maximum coins before hitting a dead end  
 I 69 - Count number of paths with at-most k turns GOT IT  
+
 
 # Game
 `48` - Maximum games played by winner  逆向思维
@@ -81,13 +88,12 @@ I 60 - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-j
 # Number
 1 - Ungly number 羊毛出自羊身上  
 I 5 - dearrangement https://en.m.wikipedia.org/wiki/Derangement  
-I 84
+I 84 - dearrangement  
 
+# Digits
+`101` - Number of n-digits non-decreasing integers  
 
 # Interesting
-75 - Sum of all substrings of a string representing a number | Set 1  
-98 - Longest alternating (positive and negative) subarray starting at every index  
-`101` - Number of n-digits non-decreasing integers  
 `I 14` - Egg Dropping Puzzle  
 
 # String
@@ -97,6 +103,9 @@ I 16 - Word Break
 I 17 - Vertex Cover  
 I 21 - Largest Independent Set
 
+# Backtracking
+I 85 - Count total number of N digit numbers such that the difference between sum of even and odd digits is 1  
+
 # Math
 I 67 - Probability of getting at least K heads in N tosses of Coins  
 I 73 - Count all triplets whose sum is equal to a perfect cube  
@@ -104,11 +113,8 @@ I 73 - Count all triplets whose sum is equal to a perfect cube
 # Bitmasking
 I 79 - Count ways to assign unique cap to every person
 
-# Backtracking
-I 85 - Count total number of N digit numbers such that the difference between sum of even and odd digits is 1
-
-
-# Encouragement
+# Done
+75 - Sum of all substrings of a string representing a number | Set 1  
 102 - Number of ways to arrange N items under given constraints  
 I 2 - Eulerian Number  
 I 20 - Highway Billboard
