@@ -4,13 +4,23 @@
 如果 bottom up 很麻烦的话，直接递归树加 dp table  
 问题规模很大的时候，如果这题用dp解决，那必然是从小往大计算，这时我们可以先关注大规模问题中的`比较小的子问题`  
 
+# Focus
+1. Init
+2. Exist condition
+3. Which dp value is final results
+
 # knapsack
+1. 初始状态
+2. 边界状态
+3. 转移时的越界
 ## 01
 40 - Count all subsequences having product less than K  
 I 15 - Dice Throw 优化的思想绝了 https://github.com/shaozhefeng/Contest/blob/master/geeks/I-15.cpp  
 I 22 - Partition Problem  
 I 54 - Find all distinct subset sums of an array  
 I 58 - Non-decreasing subsequence of size k with minimum sum  
+I 106 - Maximum number of trailing zeros in the product of the subsets of size k : https://github.com/shaozhefeng/Contest/blob/master/geeks/I-106.cpp  
+`I 124` - Clustering/Partitioning an array such that sum of square differences is minimum  
 
 
 ## complete
@@ -36,6 +46,7 @@ I 43 - Count distinct occurrences as a subsequence: https://leetcode.com/problem
 34 - Longest Increasing Subsequence  
 97 - Convert to Strictly increasing integer array with minimum changes  
 I 19 - Box Stacking
+I 108 - Minimum insertions to sort an array  
 `I 44` - LCS + LIS  
 
 ## LCS
@@ -45,6 +56,7 @@ I 41 - Longest Repeating Subsequence
 I 55 - Print all longest common sub-sequences in lexicographical order (backtracking)  
 I 56 - Printing Longest Common Subsequence | Set 2 (Printing All)  
 I 59 - Longest Common Subsequence with at most k changes allowed  
+I 126 - Minimum cost to make Longest Common Subsequence of length k  
 
 # Bi
 37 - Maximum sum Bi-tonic Sub-sequence  
@@ -59,11 +71,17 @@ I 105 - Maximum points collected by two persons allowed to meet once
 93 - Largest Sum Contiguous Subarray
 `I 96` - Maximum Product Subarray | Added negative product case  
 
+# Consecutive
+I 125 - Minimum sum subsequence such that at least one of every four consecutive elements is picked  
+I 138 - Find minimum sum such that one of every three consecutive elements is taken  
+
 # Matrix
 `54` - Maximum size square sub-matrix with all 1s  
 `I 104` - Finding the maximum square sub-matrix with all equal elements  
 I 65 - Collect maximum coins before hitting a dead end  
 I 69 - Count number of paths with at-most k turns GOT IT  
+I 107 - Minimum Sum Path In 3-D Array  
+I 109 - Minimum sum submatrix in a given 2D array  
 
 
 # Game
@@ -98,6 +116,9 @@ I 84 - dearrangement
 
 # String
 I 16 - Word Break
+I 122 - Minimal moves to form a string by adding characters or appending string itself  
+I 139 - Find number of times a string occurs as a subsequence in given string  
+
 
 # Tree
 I 17 - Vertex Cover  
@@ -119,9 +140,5 @@ I 79 - Count ways to assign unique cap to every person
 I 2 - Eulerian Number  
 I 20 - Highway Billboard
 
-
-
-
-
-
-
+# Kidding
+I 112 - Paper Cut into Minimum Number of Squares | Set 2  
