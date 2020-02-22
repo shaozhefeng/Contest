@@ -118,6 +118,8 @@ I 84 - dearrangement
 I 16 - Word Break
 I 122 - Minimal moves to form a string by adding characters or appending string itself  
 I 139 - Find number of times a string occurs as a subsequence in given string  
+I 141 - Find length of longest subsequence of one string which is substring of another string  
+I 143 - Wildcard Pattern Matching https://leetcode.com/problems/wildcard-matching/description/  
 
 
 # Tree
