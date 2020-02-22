@@ -132,6 +132,7 @@ I 85 - Count total number of N digit numbers such that the difference between su
 # Math
 I 67 - Probability of getting at least K heads in N tosses of Coins  
 I 73 - Count all triplets whose sum is equal to a perfect cube  
+I 146 - Check if any valid sequence is divisible by M https://github.com/shaozhefeng/Contest/blob/master/geeks/I-146.cpp  
 
 # Bitmasking
 I 79 - Count ways to assign unique cap to every person
