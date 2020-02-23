@@ -15,11 +15,11 @@
 3. 转移时的越界
 ## 01
 40 - Count all subsequences having product less than K  
-I 15 - Dice Throw 优化的思想绝了 https://github.com/shaozhefeng/Contest/blob/master/geeks/I-15.cpp  
+I 15 - Dice Throw 优化的思想绝了 `has code`  
 I 22 - Partition Problem  
 I 54 - Find all distinct subset sums of an array  
 I 58 - Non-decreasing subsequence of size k with minimum sum  
-I 106 - Maximum number of trailing zeros in the product of the subsets of size k : https://github.com/shaozhefeng/Contest/blob/master/geeks/I-106.cpp  
+I 106 - Maximum number of trailing zeros in the product of the subsets of size k `has code`  
 `I 124` - Clustering/Partitioning an array such that sum of square differences is minimum  
 
 
@@ -33,12 +33,12 @@ I 106 - Maximum number of trailing zeros in the product of the subsets of size k
 3. 二维dp，如果当前状态只用到了前一行，是不是可以优化空间？
 4. trying to simplify
 
-30 - Count even length binary sequences with same sum of first and second half bits: https://github.com/shaozhefeng/Contest/blob/master/geeks/30.cpp  
-31 - every element is more than or equal to twice of previous: https://github.com/shaozhefeng/Contest/blob/master/geeks/B-31.cpp  
+30 - Count even length binary sequences with same sum of first and second half bits `has code`  
+31 - every element is more than or equal to twice of previous `has code`  
 I 32 - Count All Palindromic Subsequence in a given String 这题可以按着最长回文序列来做，但是geeks给的答案也比较有意思。
 
 ## Similar
-I 40 - Shortest Uncommon Subsequence: https://github.com/shaozhefeng/Contest/blob/master/geeks/I-40.cpp  
+I 40 - Shortest Uncommon Subsequence `has code`  
 I 42 - Count Distinct Subsequences: https://leetcode.com/problems/distinct-subsequences/  
 I 43 - Count distinct occurrences as a subsequence: https://leetcode.com/problems/distinct-subsequences-ii/
 
@@ -98,6 +98,7 @@ I 109 - Minimum sum submatrix in a given 2D array
 85 - Counting pairs when a person can form pair with at most one  
 `88` - Count of arrays having consecutive element with different values 递归树  
 I 60 - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ 查询用map的操作是真的骚  
+I 155 - Largest divisible pairs subset  
 
 # 递归树入手
 69 - Minimum removals from array to make max – min <= K  
@@ -132,7 +133,9 @@ I 85 - Count total number of N digit numbers such that the difference between su
 # Math
 I 67 - Probability of getting at least K heads in N tosses of Coins  
 I 73 - Count all triplets whose sum is equal to a perfect cube  
-I 146 - Check if any valid sequence is divisible by M https://github.com/shaozhefeng/Contest/blob/master/geeks/I-146.cpp  
+I 146 - Check if any valid sequence is divisible by M `has code`  
+I 150 - Given a large number, check if a subsequence of digits is divisible by 8  
+https://leetcode.com/problems/largest-multiple-of-three/description/  
 
 # Bitmasking
 I 79 - Count ways to assign unique cap to every person
@@ -142,6 +145,7 @@ I 79 - Count ways to assign unique cap to every person
 102 - Number of ways to arrange N items under given constraints  
 I 2 - Eulerian Number  
 I 20 - Highway Billboard
+I 154 - Number of permutation with K inversions `has code`  
 
 # Kidding
 I 112 - Paper Cut into Minimum Number of Squares | Set 2  
