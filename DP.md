@@ -87,6 +87,7 @@ I 109 - Minimum sum submatrix in a given 2D array
 # Game
 `48` - Maximum games played by winner  逆向思维
 `I 66` - Coin game winner where every player has three choices  
+I 152 - Optimal Strategy for a Game  
 
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
@@ -108,9 +109,12 @@ I 155 - Largest divisible pairs subset
 1 - Ungly number 羊毛出自羊身上  
 I 5 - dearrangement https://en.m.wikipedia.org/wiki/Derangement  
 I 84 - dearrangement  
+I 159 - Non-crossing lines to connect points in a circle `catalan`  
 
 # Digits
 `101` - Number of n-digits non-decreasing integers  
+`I 157` - Compute sum of digits in all numbers from 1 to n  
+I - 164 Number of n digit stepping numbers  
 
 # Interesting
 `I 14` - Egg Dropping Puzzle  
@@ -126,6 +130,7 @@ I 143 - Wildcard Pattern Matching https://leetcode.com/problems/wildcard-matchin
 # Tree
 I 17 - Vertex Cover  
 I 21 - Largest Independent Set
+I 167 - Number of ways to form a heap with n distinct integers  
 
 # Backtracking
 I 85 - Count total number of N digit numbers such that the difference between sum of even and odd digits is 1  
@@ -136,15 +141,22 @@ I 73 - Count all triplets whose sum is equal to a perfect cube
 I 146 - Check if any valid sequence is divisible by M `has code`  
 I 150 - Given a large number, check if a subsequence of digits is divisible by 8  
 https://leetcode.com/problems/largest-multiple-of-three/description/  
+I 156 - Sum of average of all subsets `combination`  
+I 158 - Total number of non-decreasing numbers with n digits  
+I 165 - Number of substrings divisible by 8 but not by 3  
 
 # Bitmasking
 I 79 - Count ways to assign unique cap to every person
+
+# Bit
+I 166 - Number of ordered pairs such that (Ai & Aj) = 0  
 
 # Done
 75 - Sum of all substrings of a string representing a number | Set 1  
 102 - Number of ways to arrange N items under given constraints  
 I 2 - Eulerian Number  
 I 20 - Highway Billboard
+I 153 - Optimal Binary Search Tree `has code`  
 I 154 - Number of permutation with K inversions `has code`  
 
 # Kidding
