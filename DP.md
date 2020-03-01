@@ -36,15 +36,15 @@ I 106 - Maximum number of trailing zeros in the product of the subsets of size k
 3. 二维dp，如果当前状态只用到了前一行，是不是可以优化空间？
 4. trying to simplify
 5. 左右对称的题，一般就像剥洋葱一样
+6. Palindromic must 对称来做
 
 30 - Count even length binary sequences with same sum of first and second half bits `has code`  
-31 - every element is more than or equal to twice of previous `has code`  
-I 32 - Count All Palindromic Subsequence in a given String 这题可以按着最长回文序列来做，但是geeks给的答案也比较有意思。
+`I 32` - Count All Palindromic Subsequence in a given String
 
 ## Similar
-I 40 - Shortest Uncommon Subsequence `has code`  
-I 42 - Count Distinct Subsequences: https://leetcode.com/problems/distinct-subsequences/  
-I 43 - Count distinct occurrences as a subsequence: https://leetcode.com/problems/distinct-subsequences-ii/
+`I 40` - Shortest Uncommon Subsequence `has code`  
+I 42 - Count Distinct Subsequences: https://leetcode.com/problems/distinct-subsequences-ii/
+I 43 - Count distinct occurrences as a subsequence: https://leetcode.com/problems/distinct-subsequences/  
 
 ## LIS
 34 - Longest Increasing Subsequence  
@@ -92,7 +92,7 @@ I 109 - Minimum sum submatrix in a given 2D array
 # Game
 `48` - Maximum games played by winner  逆向思维
 `I 66` - Coin game winner where every player has three choices  
-I 152 - Optimal Strategy for a Game  
+`I 152` - Optimal Strategy for a Game  
 
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
@@ -157,6 +157,7 @@ I 79 - Count ways to assign unique cap to every person
 I 166 - Number of ordered pairs such that (Ai & Aj) = 0  
 
 # Done
+31 - every element is more than or equal to twice of previous `has code`  
 75 - Sum of all substrings of a string representing a number | Set 1  
 102 - Number of ways to arrange N items under given constraints  
 I 2 - Eulerian Number  
