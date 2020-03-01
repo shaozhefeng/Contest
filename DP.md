@@ -7,7 +7,7 @@
 # Focus
 1. Init
 2. Exist condition
-3. Which dp value is final results
+3. Which dp value is final result
 
 # knapsack
 1. 初始状态
@@ -27,11 +27,15 @@ I 106 - Maximum number of trailing zeros in the product of the subsets of size k
 55 - Maximum number of segments of lengths a, b and c  
 79 - Find number of solutions of a linear equation of n variables
 
+## 
+175 - Ways to arrange Balls such that adjacent balls are of different types `has code`  
+
 # Sequences
 1. 第i个状态需要前两个状态求出（i-1，i-2），一般空间可以优化到 O(1)。
 2. 两个序列的话，可以画图。
 3. 二维dp，如果当前状态只用到了前一行，是不是可以优化空间？
 4. trying to simplify
+5. 左右对称的题，一般就像剥洋葱一样
 
 30 - Count even length binary sequences with same sum of first and second half bits `has code`  
 31 - every element is more than or equal to twice of previous `has code`  
@@ -70,6 +74,7 @@ I 105 - Maximum points collected by two persons allowed to meet once
 52 - Size of The Subarray With Maximum Sum
 93 - Largest Sum Contiguous Subarray
 `I 96` - Maximum Product Subarray | Added negative product case  
+I 180 - Pyramid form (increasing then decreasing) consecutive array using reduce operations `TODO`  
 
 # Consecutive
 I 125 - Minimum sum subsequence such that at least one of every four consecutive elements is picked  
