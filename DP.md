@@ -65,16 +65,16 @@ I 126 - Minimum cost to make Longest Common Subsequence of length k
 # Bi
 37 - Maximum sum Bi-tonic Sub-sequence  
 I 13 - Temple Offerings  
-`I 101` - Maximum profit by buying and selling a share at most twice  
+I 101 - Maximum profit by buying and selling a share at most twice https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/  
 I 105 - Maximum points collected by two persons allowed to meet once  
-`I 94` - Maximum sum subarray removing at most one element  
+I 94 - Maximum sum subarray removing at most one element  
 
 
 # Array subarray
 52 - Size of The Subarray With Maximum Sum
 93 - Largest Sum Contiguous Subarray
-`I 96` - Maximum Product Subarray | Added negative product case  
-I 180 - Pyramid form (increasing then decreasing) consecutive array using reduce operations `TODO`  
+I 96 - Maximum Product Subarray | Added negative product case https://leetcode.com/problems/maximum-product-subarray/description/  
+`I 180` - Pyramid form (increasing then decreasing) consecutive array using reduce operations `TODO`  
 
 # Consecutive
 I 125 - Minimum sum subsequence such that at least one of every four consecutive elements is picked  
@@ -90,9 +90,9 @@ I 109 - Minimum sum submatrix in a given 2D array
 
 
 # Game
-`48` - Maximum games played by winner  逆向思维
-`I 66` - Coin game winner where every player has three choices  
-`I 152` - Optimal Strategy for a Game  
+48 - Maximum games played by winner  逆向思维
+I 66 - Coin game winner where every player has three choices  
+I 152 - Optimal Strategy for a Game `has code`  
 
 
 # 选当前element或者不选，(more generally，当前element满足某个条件或者不满足某个条件）
@@ -102,8 +102,8 @@ I 109 - Minimum sum submatrix in a given 2D array
 62 - Maximize the sum of selected numbers from an array to make it empty  
 78 - Find maximum possible stolen value from houses  
 85 - Counting pairs when a person can form pair with at most one  
-`88` - Count of arrays having consecutive element with different values 递归树  
-I 60 - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ 查询用map的操作是真的骚  
+88 - Count of arrays having consecutive element with different values geeks更优，但是背包更好想 `has code`  
+`I 60` - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ 查询用map的操作是真的骚  
 I 155 - Largest divisible pairs subset  
 
 # 递归树入手
@@ -114,7 +114,7 @@ I 155 - Largest divisible pairs subset
 1 - Ungly number 羊毛出自羊身上  
 I 5 - dearrangement https://en.m.wikipedia.org/wiki/Derangement  
 I 84 - dearrangement  
-I 159 - Non-crossing lines to connect points in a circle `catalan`  
+`I 159` - Non-crossing lines to connect points in a circle `catalan`  
 
 # Digits
 `101` - Number of n-digits non-decreasing integers  
@@ -166,4 +166,4 @@ I 153 - Optimal Binary Search Tree `has code`
 I 154 - Number of permutation with K inversions `has code`  
 
 # Kidding
-I 112 - Paper Cut into Minimum Number of Squares | Set 2  
+I 112 - Paper Cut into Minimum Number of Squares | Set 2 `backtracking` https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/description/  
