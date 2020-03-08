@@ -103,7 +103,7 @@ I 152 - Optimal Strategy for a Game `has code`
 78 - Find maximum possible stolen value from houses  
 85 - Counting pairs when a person can form pair with at most one  
 88 - Count of arrays having consecutive element with different values geeks更优，但是背包更好想 `has code`  
-`I 60` - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ 查询用map的操作是真的骚  
+I 60 - Weighted Job Scheduling https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ `查询用map的操作是真的骚`  
 I 155 - Largest divisible pairs subset  
 
 # 递归树入手
@@ -114,10 +114,10 @@ I 155 - Largest divisible pairs subset
 1 - Ungly number 羊毛出自羊身上  
 I 5 - dearrangement https://en.m.wikipedia.org/wiki/Derangement  
 I 84 - dearrangement  
-`I 159` - Non-crossing lines to connect points in a circle `catalan`  
+I 159 - Non-crossing lines to connect points in a circle `catalan`  
 
 # Digits
-`101` - Number of n-digits non-decreasing integers  
+101 - Number of n-digits non-decreasing integers 问题规模一定是从小往大  
 `I 157` - Compute sum of digits in all numbers from 1 to n  
 I - 164 Number of n digit stepping numbers  
 
@@ -125,7 +125,7 @@ I - 164 Number of n digit stepping numbers
 `I 14` - Egg Dropping Puzzle  
 
 # String
-I 16 - Word Break
+I 16 - Word Break https://leetcode.com/problems/word-break/description/  
 I 122 - Minimal moves to form a string by adding characters or appending string itself  
 I 139 - Find number of times a string occurs as a subsequence in given string  
 I 141 - Find length of longest subsequence of one string which is substring of another string  
@@ -167,3 +167,9 @@ I 154 - Number of permutation with K inversions `has code`
 
 # Kidding
 I 112 - Paper Cut into Minimum Number of Squares | Set 2 `backtracking` https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/description/  
+
+# function
+## map::upper_bound(k)
+the first element in the container whose key is considered to `go after` k  
+## map::lower_bound(k)
+the first element in the container whose key is `not considered to go before k` (i.e., either it is `equivalent or goes after`)  
